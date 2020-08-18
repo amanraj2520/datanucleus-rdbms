@@ -2280,6 +2280,4 @@ public class BaseDatastoreAdapter implements DatastoreAdapter
         }
         throw new NucleusException(Localiser.msg("054004", javaType, jdbcType, sqlType)).setFatal();
     }
-
-
 }
